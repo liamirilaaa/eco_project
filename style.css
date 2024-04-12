@@ -1,0 +1,40 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,  sans-serif; /* Семейство шрифтов */
+    font-size: 18px; /* Размер основного шрифта в <p></p>  */
+    background-color: #f1f1ea; /* Цвет фона веб-страницы */
+    color: #242421; /* Цвет основного текста */ 
+}
+h1 {
+    color: #72AC25; /* Цвет заголовка */
+    font-size: 32px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+p {
+    color: #283f0a; /* Цвет заголовка */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+h2 {
+    color: #4b8105; /* Цвет заголовка */
+}
+ul {
+    color: #283f0a; /* Цвет заголовка */
+    font-family: Georgia, serif;
+}
+
+@keyframes color-change {
+    0% {
+      color: rgb(7, 59, 48);
+    }
+  
+    50% {
+      color: rgb(29, 87, 53);
+    }
+  
+    100% {
+      color: rgb(7, 59, 48);
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
